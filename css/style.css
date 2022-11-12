@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2874f0;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 8vh;
+    min-width:100vw;
+}
+.view1 {
+    position: relative;
+    left: 1428px;
+    top: 2%;
+    width: 85px;
+    height: 38px;
+    background-color: #2874f0;
+    border: none;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.view2 {
+    position: relative;
+    left: 1346px;
+    top: 2%;
+    width: 85px;
+    height: 38px;
+    background-color: #2874f0;
+    border: none;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+
+}
+
+.view3 {
+    position: relative;
+    left: 1351px;
+    top: 2%;
+    width: 85px;
+    height: 38px;
+    background-color: #2874f0;
+    border: none;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 700;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:6px;
+}
+
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.yellow {
+    color: #ffe500;
+    font-weight: 600;
+}
+
+.explore a {
+    color: aliceblue;
+    position: relative;
+    left: -138px;
+    top: 18px;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+.explore a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 25px;
+}
+.sbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sbar a{
+    font-size: 32px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    background-color: #fff;
+    position: relative;
+    right: 77px;
+    bottom:3px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+    font-size: small;
+
+
+}
+
+nav ol li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-style: italic;
+
+
+
+}
+
+.design {
+    position: relative;
+    right: 8px;
+    list-style: none;
+
+}
+
+.design:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: rgb(8, 8, 126);
+}
+
+main {
+    max-width: 100vw;
+    min-height: calc(100vh - 12vh - 6vh);
+    background-color: rgb(240, 235, 235);
+}
+
+.upper {
+    width:100vw;
+    height: 113px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.upcard{
+    padding: 0px 30px;
+}
+.upimg img{
+    width: 3vw;
+}
+.upcard a{
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    padding-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 32px;
+    font-weight: 500;
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+.full img{
+     width: 90vw;
+    height: 35vh;
+}
+.slider{
+    width: 90vw;
+    height: 35vh;
+}
+
+section {
+    width: 90vw;
+    height: 45vh;
+    background-color: white;
+    margin: 15px auto;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.card a{
+    text-decoration: none;
+}
+.viewall{
+    text-decoration: none;
+    color: #fff;
+}
+.card-item img{
+    width: 9vw;
+    height: 15vh;
+
+    padding: 25px 40px 0px 40px;
+    margin: 0px 0px;
+} 
+.card-item{
+    height:22vh;
+}
+.title{
+    font-size:medium;
+    font-weight:500;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+}
+.offer{
+    color: #388e3c;
+    font-family: Roboto, Arial, sans-serif;
+}
+.explore{
+    color:#878787 ;
+    font-family: Roboto, Arial, sans-serif;
+}
+.discription p{
+    padding-top: 5px;
+}
+
+h1 {
+    padding-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #172337;
+    height: 12vh;
+    width: 100vw;
+}
+
+footer a {
+    color: #2874f0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: aqua;
+}
