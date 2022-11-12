@@ -112,6 +112,9 @@ nav ul li {
     list-style: none;
     padding: 0 25px;
 }
+ol li {
+    list-style: none;
+}
 .sbar{
     display: flex;
     justify-content: center;
